@@ -84,39 +84,13 @@ streamlit
 
 ---
 
-## 🚀 **Como Começar**
+## 📌 Como Usar
+1. Clone o repositório
+2. Instale as dependências (`pip install -r requirements.txt`)
+3. Execute `main.py` para iniciar a análise
+4. Para abrir a interface: `streamlit run interface/app.py`
 
-1. **Clone o repositório e entre no diretório:**
-   ```bash
-   git clone https://github.com/seu-usuario/bank-statement-analyzer.git
-   cd bank-statement-analyzer
-   ```
 
-2. **Crie um ambiente virtual e ative:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Mac/Linux
-   venv\Scripts\activate    # Windows
-   ```
-
-3. **Instale as dependências:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Execute o projeto:**
-   ```bash
-   python src/app.py
-   ```
-
----
-
-## 📌 **Próximos Passos**
-- Implementar novas categorias de classificação.
-- Criar uma interface web interativa com Streamlit.
-- Exportar os insights para um formato CSV/Excel.
-
-Se precisar de ajustes ou melhorias, entre em contato! 🚀
 
 
 
