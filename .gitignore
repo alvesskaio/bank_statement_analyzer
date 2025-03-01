@@ -1,0 +1,20 @@
+# Ignorar arquivos de dados sensíveis
+data/raw/
+data/processed/
+
+# Ignorar arquivos do Jupyter Notebook
+notebooks/*.ipynb_checkpoints/
+
+# Ignorar dependências de ambiente virtual
+venv/
+*.pyc
+__pycache__/
+
+# Ignorar logs e arquivos temporários
+logs/
+*.log
+*.tmp
+
+# Ignorar exportações desnecessárias
+*.csv
+*.xlsx
