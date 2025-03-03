@@ -1,12 +1,18 @@
+# Ignorar o ambiente virtual
+venv/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
 # Ignorar arquivos de dados sensíveis
 data/raw/
 data/processed/
 
-# Ignorar arquivos do Jupyter Notebook
-notebooks/*.ipynb_checkpoints/
+# Ignorar arquivos temporários do Jupyter Notebook, mas NÃO os notebooks
+*.ipynb_checkpoints/
 
-# Ignorar dependências de ambiente virtual
-venv/
+# Ignorar arquivos Python compilados
 *.pyc
 __pycache__/
 
@@ -18,3 +24,4 @@ logs/
 # Ignorar exportações desnecessárias
 *.csv
 *.xlsx
+*.json
